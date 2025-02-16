@@ -1,0 +1,26 @@
+we used to have batch files and ant tool before maven but maven is capable of more automation than them. maven is an automation project tool
+Maven is an automation tool which is used to automate the project execution steps
+if we eneter the mvn install which is an approxly 17th step in the maven life cycle it will execute the before 16 steps also 
+
+for this we have pom.xml file (project object model file which is in xml) this helps in downloading jars, plugins, old projects
+we need to download maven first into the local
+and need to set the maven bin path in the env variables path in the local
+we can see the conf--> settings.xml in our local in the maven folder where we can set the user path there
+maven has local repository, central repository, remote repository
+first it checks in the local repo and in the central repo and next in the remote repo
+if it is present in the central then it will download it and store it in the local repo and same fpr the remote repo
+
+<dependencies>
+ <dependency>
+   <groupid>...</groupid>  //company name
+   <artifactid>...</artifactid> //jar name, plugin name, project name
+   <version>...</version>  //version no
+ </dependency>
+</dependencies>
+
+Standalone maven project creation
+
+create the folder in the drive and inside it create an another folder and open the cmd line and then give the command mvn archetype:generate
+it generates the standalone proj 
+
+
