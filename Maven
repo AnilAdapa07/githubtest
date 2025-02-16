@@ -22,5 +22,6 @@ Standalone maven project creation
 
 create the folder in the drive and inside it create an another folder and open the cmd line and then give the command mvn archetype:generate
 it generates the standalone proj 
-
+Sample test:
+ to test I've added the java class and entered the command mvn package to generate the jar it has created the jar in the traget folder
 
