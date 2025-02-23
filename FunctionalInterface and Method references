@@ -1,0 +1,28 @@
+functional interaface: it should have one abstract method and it can be used to pass function as an argument to the method
+
+if you have a functional interface and the method in it
+you need to override that method using like write a function using lambda expression that is method execution 
+
+EX: @FunctionalInterface
+    public Interface I1 {
+
+void m1(int a , int b);
+}
+
+
+class:
+
+public Class Test {
+main{
+// we need to assign the function tp the Interface type 
+I1 i1 = (a,b) -> {sout(a+b);};   //method execution
+i1.m1(10,20); //method calling
+}
+}
+
+method reference:
+when you have same function implementation in another class method then you dont have to write the lamda expression you can call the method using 4 ways
+Class::method; if the method is static
+new Class()::method; non static
+meth::new; constructor
+Class::method; //arbitrary method 
