@@ -1,0 +1,28 @@
+FunctionalInterface:
+there are two type of operations one is validation to check true or false
+ another is to perform the operations
+
+ print/storing --> consumer
+ return ---> supplier
+ 
+1) consumer
+
+ public interface i1<T> {
+ void m1(T t1);                   //
+ }
+
+ 2) Supplier
+  public interface i2<T> {
+ T m1();
+ }
+
+ 3) function
+  public interface i3<T, R> {
+ R m1(T t1);
+ }
+
+ 4) predicate
+  public interface i4<T> {
+ boolean m1(T t1);
+ }
+ 
