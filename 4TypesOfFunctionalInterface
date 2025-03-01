@@ -10,19 +10,24 @@ there are two type of operations one is validation to check true or false
  public interface i1<T> {
  void m1(T t1);                   //
  }
+this has accept method. this has one input and doesn;t return anything
 
  2) Supplier
   public interface i2<T> {
  T m1();
  }
+this has get method. this has no input but it returns .
 
  3) function
   public interface i3<T, R> {
  R m1(T t1);
  }
+this has apply method . it takes one input of any typr and returns the output of any type
 
  4) predicate
   public interface i4<T> {
  boolean m1(T t1);
  }
+
+this has test method and it takes one input and returns the boolean true or false .
  
