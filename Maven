@@ -25,3 +25,9 @@ it generates the standalone proj
 Sample test:
  to test I've added the java class and entered the command mvn package to generate the jar it has created the jar in the traget folder
 
+MVN install:
+using mvn install command we can create current proj jar file and keep it in local repository.
+so we can use it in other project as an dependent.
+
+
+
